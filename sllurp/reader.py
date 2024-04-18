@@ -25,12 +25,12 @@ class Reader(LLRPClient):
 			'EnableROSpecID': False,
 			'EnableSpecIndex': False,
 			'EnableInventoryParameterSpecID': False,
-			'EnableAntennaID': True,
-			'EnableChannelIndex': True,
-			'EnablePeakRSSI': True,
-			'EnableFirstSeenTimestamp': True,
+			'EnableAntennaID': False,
+			'EnableChannelIndex': False,
+			'EnablePeakRSSI': False,
+			'EnableFirstSeenTimestamp': False,
 			'EnableLastSeenTimestamp': True,
-			'EnableTagSeenCount': True,
+			'EnableTagSeenCount': False,
 			'EnableAccessSpecID': False}
 		
 		# connect to reader
